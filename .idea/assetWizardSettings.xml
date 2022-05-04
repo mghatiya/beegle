@@ -79,8 +79,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$USER_HOME$/Documents/Beegle/Beegle Logo 2022/beegle-logo-square-without-tagline.png" />
-                                                <entry key="scalingPercent" value="52" />
+                                                <entry key="imagePath" value="$USER_HOME$/Documents/Beegle/Beegle Logo 2022/beegle-favicon.png" />
+                                                <entry key="scalingPercent" value="48" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -114,7 +114,7 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="outputName" value="beegle-logo" />
+                                      <entry key="outputName" value="beegle_logo" />
                                     </map>
                                   </option>
                                 </PersistentState>

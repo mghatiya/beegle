@@ -28,7 +28,7 @@ def twaManifest = [
     launchUrl: '/app/', // The start path for the TWA. Must be relative to the domain.
     name: 'Beegle', // The application name.
     launcherName: 'Beegle', // The name shown on the Android Launcher.
-    themeColor: '#DEEC02', // The color used for the status bar.
+    themeColor: '#F1E868', // The color used for the status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
     navigationDividerColor: '#000000', // The navbar divider color.
@@ -58,8 +58,8 @@ android {
         applicationId "com.beegle.app"
         minSdkVersion 19
         targetSdkVersion 30
-        versionCode 6
-        versionName "1.2.0"
+        versionCode 7
+        versionName "1.2.1"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
