@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "570765560963",
+    "firebase_url": "https://beegle-a0450.firebaseio.com",
+    "project_id": "beegle-a0450",
+    "storage_bucket": "beegle-a0450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570765560963:android:fb5c29ac5643748325dfb6",
+        "android_client_info": {
+          "package_name": "app.beegle.campus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570765560963-aaflu74cmfhtuaresu8occ0fp9c539ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.beegle.campus",
+            "certificate_hash": "61e7dc9c8a324a69b0537d3b7a921aee33994ae0"
+          }
+        },
+        {
+          "client_id": "570765560963-k5notjs2n0q3a4tr7k3ngsdmft7ife71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdL0yrVzUC_BLMq-2s6NzhitxyfsmVEkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570765560963-k5notjs2n0q3a4tr7k3ngsdmft7ife71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570765560963:android:8b61546a741b7add25dfb6",
+        "android_client_info": {
+          "package_name": "app.beegle.campuspro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570765560963-f8k5hqqv1sp502s1ukk9n1ob4unpi9v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.beegle.campuspro",
+            "certificate_hash": "14131c4e4ace4ce86e83636ccf6adc37c94b4914"
+          }
+        },
+        {
+          "client_id": "570765560963-k5notjs2n0q3a4tr7k3ngsdmft7ife71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdL0yrVzUC_BLMq-2s6NzhitxyfsmVEkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570765560963-k5notjs2n0q3a4tr7k3ngsdmft7ife71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570765560963:android:3e6f2d385a8a34ef25dfb6",
+        "android_client_info": {
+          "package_name": "app.beegle.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570765560963-el6rd5ev9ifus023adq2dbdk244556lv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.beegle.pro",
+            "certificate_hash": "b88808816bf306564d714e78afc63e98db5f82c7"
+          }
+        },
+        {
+          "client_id": "570765560963-k5notjs2n0q3a4tr7k3ngsdmft7ife71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdL0yrVzUC_BLMq-2s6NzhitxyfsmVEkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570765560963-k5notjs2n0q3a4tr7k3ngsdmft7ife71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570765560963:android:fa426c6f582a125625dfb6",
+        "android_client_info": {
+          "package_name": "com.beegle.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570765560963-hqt5nrc0divi36litvh8gdv7cmjh7nc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beegle.app",
+            "certificate_hash": "97fbd9d1bdccb593dc9220f397f61005c6e18519"
+          }
+        },
+        {
+          "client_id": "570765560963-k5notjs2n0q3a4tr7k3ngsdmft7ife71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdL0yrVzUC_BLMq-2s6NzhitxyfsmVEkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570765560963-k5notjs2n0q3a4tr7k3ngsdmft7ife71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

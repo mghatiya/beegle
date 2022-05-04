@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.androidbrowserhelper:locationdelegation:1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6533a4776060e2dafc326b30a0222ee1/locationdelegation-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7c8eb3162913765d906defb893f55ef5/transformed/locationdelegation-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9483533783b482370219eaaa66ec3fbe/transformed/locationdelegation-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9483533783b482370219eaaa66ec3fbe/transformed/locationdelegation-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9483533783b482370219eaaa66ec3fbe/transformed/locationdelegation-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,41 @@
+{
+  "packageId": "com.beegle.app",
+  "host": "beegle.app",
+  "name": "Beegle",
+  "launcherName": "Beegle",
+  "display": "standalone",
+  "themeColor": "#DEEC02",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/app/",
+  "iconUrl": "https://beegle.app/beegle-logo-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/mghatiya/Documents/Beegle/PWA/app/beegleapp-key",
+    "alias": "key0"
+  },
+  "appVersionName": "6",
+  "appVersionCode": 6,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://beegle.app/mapp-manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "appVersion": "6"
+}
