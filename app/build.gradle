@@ -53,13 +53,13 @@ def twaManifest = [
 ]
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 35
     defaultConfig {
         applicationId "com.beegle.app"
-        minSdkVersion 19
-        targetSdkVersion 30
-        versionCode 7
-        versionName "1.2.1"
+        minSdkVersion 21
+        targetSdkVersion 35
+        versionCode 10
+        versionName "1.2.4"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
@@ -150,14 +150,15 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    lintOptions {
+    lint {
         checkReleaseBuilds false
     }
+    namespace 'com.beegle.app'
 }
 
 
 
-task generateShorcutsFile {
+tasks.register('generateShorcutsFile') {
     assert twaManifest.shortcuts.size() < 5, "You can have at most 4 shortcuts."
     twaManifest.shortcuts.eachWithIndex { s, i ->
         assert s.name != null, 'Missing `name` in shortcut #' + i
@@ -201,16 +202,16 @@ repositories {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     
-        implementation 'com.google.androidbrowserhelper:locationdelegation:1.0.1'
+        implementation 'com.google.androidbrowserhelper:locationdelegation:1.1.1'
     
-        implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.2.1'
+        implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.5.0'
 
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation platform('com.google.firebase:firebase-bom:28.4.1')
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation platform('com.google.firebase:firebase-bom:33.4.0')
     implementation 'com.google.firebase:firebase-analytics'
-    implementation 'com.google.firebase:firebase-messaging:22.0.0'
+    implementation 'com.google.firebase:firebase-messaging:24.0.2'
 
 
 }
