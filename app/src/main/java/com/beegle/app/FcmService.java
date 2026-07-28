@@ -51,11 +51,20 @@ public class FcmService extends FirebaseMessagingService {
 
         Intent notificationIntent = new Intent(this, LauncherActivity.class);
         notificationIntent.setData(Uri.parse(url));
-        PendingIntent notificationPendingIntent = PendingIntent.getActivity(this, id, notificationIntent, 0);
-
+        PendingIntent notificationPendingIntent = PendingIntent.getActivity(
+                this,
+                id,
+                notificationIntent,
+                PendingIntent.FLAG_IMMUTABLE
+        );
         Intent actionIntent = new Intent(this, LauncherActivity.class);
         actionIntent.setData(Uri.parse(action_url));
-        PendingIntent actionPendingIntent = PendingIntent.getActivity(this, id, actionIntent, 0);
+        PendingIntent actionPendingIntent = PendingIntent.getActivity(
+                this,
+                id,
+                actionIntent,
+                PendingIntent.FLAG_IMMUTABLE
+        );
         NotificationCompat.Action action = new NotificationCompat.Action.Builder(R.mipmap.ic_launcher, action_name, actionPendingIntent).build();
 
         Notification notification = notificationBuilder
